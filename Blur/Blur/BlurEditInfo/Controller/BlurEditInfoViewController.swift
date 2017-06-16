@@ -20,7 +20,6 @@ class BlurEditInfoViewController: UIViewController,UIImagePickerControllerDelega
         super.viewDidLoad()
         imageArray = NSMutableArray.init()
         imageArray = ["","","","","",""]
-       
         view.backgroundColor = UIColor.white
         self.title = "Edit Info"
         self.navigationController?.navigationBar.barTintColor = UIColor.white
